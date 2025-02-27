@@ -7,16 +7,33 @@ public class Ex1 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite um numero: ");
-        num1 = scanner.nextInt();
-
-        System.out.print("Digite outro numero: ");
-        num2 = scanner.nextInt();
-
+        
+        while(true){
+            System.out.print("Digite um numero: ");
+            if(scanner.hasNextInt()){
+                num1 = scanner.nextInt();
+                break;
+            }else{
+                System.out.println("Entrada incorreta");
+                scanner.next();
+            }
+        }
+        while(true){
+            System.out.print("Digite outro numero: ");
+            if(scanner.hasNextInt()){
+                num2 = scanner.nextInt();
+                break;
+            }else{
+                System.out.println("Entrada incorreta");
+                scanner.next();
+            }
+        }
         int temp = num1;
         num1 = num2;
         num2 = temp;
 
         System.out.println("Os valores trocados agora serao: Valor1 = " + num1 + " e Valor2 = " + num2);
+        
+        scanner.close();
     }
 }
