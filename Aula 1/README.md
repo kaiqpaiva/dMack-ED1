@@ -33,7 +33,7 @@ código? Como podemos resolver o problema?
 informe qual é o maior e qual é o menor.
 4. Escreva um código Java que leia 10 números inteiros e, em seguida, exiba-os na
 ordem inversa que foram inseridas pelo usuário.
-5. Escreva um método estático min() que recebe dois parâmetros numéricos inteiros
+5. eva um método estático min() que rEscrecebe dois parâmetros numéricos inteiros
 e retorna o menor valor entre eles e um método estático max() que recebe dois
 parâmetros numéricos inteiros e retorna o maior valor entre eles.
 Inclua um código na main() que exemplifica o uso dos dois métodos.
